@@ -1,0 +1,98 @@
+.credit-card{
+background-image: url("Sans titre.png");
+background-repeat: no-repeat;
+position: relative;
+height: 320px;
+}
+.title{
+color: white;
+text-transform: uppercase;
+position: absolute;
+left: 230px;
+}
+.chip-card{
+  width: 69px;
+    border-radius: 12px;
+    position: absolute;
+    left: 58px;
+    top: 79px;
+}
+.num-de-serie{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #afb272;
+position: absolute;
+top: 151px;
+left: 43px;
+font-size: 29px;
+background-color: #afb2725e;
+
+}
+.content{
+  display: flex;
+  color: white;
+  position: absolute;
+  top: 174px;
+  left: 38px;
+}
+.info{
+  position: absolute;
+    left: 200px;
+    display: flex;
+
+}
+.validation{
+  position: absolute;
+
+  top: 11px;
+}
+.year-month{
+  position: absolute;
+  left: 59px;
+}
+.triangle{
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 6px 0 6px 10px;
+border-color: transparent transparent transparent #fafafa;
+position: absolute;
+   
+    left: 44px;
+    top: 43px;
+}
+.datenum{
+  margin-top: -16px;
+}
+.cardholder{
+  color: white;
+    position: absolute;
+    top: 233px;
+    left: 28px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.visa{
+  width: 58px;
+  position: absolute;
+  left: 375px;
+  top: 211px;
+}
+.mastercard{
+  width: 58px;
+  position: absolute;
+  left: 375px;
+  top: 250px;
+
+}
+.inputData{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 16%;
+margin-left: 40%;
+}
+.inputData input{
+  margin-top: 8%;
+  border-radius: 4px;
+
+}
